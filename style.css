@@ -114,3 +114,35 @@ button {
   font-weight: 700;
 }
 
+@media only screen and (max-width: 650px) {
+  .container {
+    width: 90%;
+  }
+
+  .inner-container {
+    flex-direction: column;
+  }
+
+  #bar {
+    width: 150%;
+  }
+
+  button {
+    width: 60px;
+    margin: 10px;
+  }
+
+  #remaining-div {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  #bar {
+    width: 100%;
+  }
+}
