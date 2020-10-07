@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+:root {
+  --primary: #585858;
+  --secondary: #949494;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  color: #272727;
+}
+
+.container {
+  width: 600px;
+  border: solid 3px var(--primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center
+}
+
+progress[value] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 350px;
+  height: 30px;
+  margin: 20px;
+}
+
+#bar {
+  width: 350px;
+  border-radius: 50px;
+  border: solid 3px var(--primary);
+  height: 30px;
+  margin: 20px;
+}
+
+#progress {
+  width: 0%;
+  height: 100%;
+  border-radius: 50px;
+  background-color: var(--secondary);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 2s ease;
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center
+}
+
+.target {
+  width: 150px;
+  height: 100px;
+  border: solid 3px var(--primary);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
+}
+
+p {
+  margin:0;
+  font-size: 20px;
+}
+
+span {
+  font-weight: 700;
+  font-size: 35px;
+}
+
+button {
+  width: 100px;
+  height: 60px;
+  margin: 20px;
+  background: none;
+  border: solid 3px var(--primary);
+}
+
+#remaining-div {
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-funds {
+  font-size: 25px;
+  font-weight: 700;
+}
+
